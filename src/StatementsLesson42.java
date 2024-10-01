@@ -13,6 +13,6 @@ public class StatementsLesson42 {
         myVariable--;
         System.out.println("myVariable = " + myVariable);
 
-        System.out.println("Hi, i'm Daniel");
+        System.out.println("Hi, i'm DanielSontu");
     }
 }
