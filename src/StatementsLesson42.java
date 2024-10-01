@@ -9,12 +9,10 @@ public class StatementsLesson42 {
         System.out.println("This is" +
                 " another" +
                 " still more.");
-        int anotherVariable = 50;
+
         myVariable--;
         System.out.println("myVariable = " + myVariable);
 
-        if (myVariable != 0) {
-            System.out.println("Hi");
-        }
+        System.out.println("Hi, i'm Daniel");
     }
 }
