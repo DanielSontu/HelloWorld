@@ -8,14 +8,14 @@ public class Methods45 {
         int bonus = 100;
 
 
-       int highScore =  calculateScore(gameOver, score, levelCompleted, bonus);
+        int highScore = calculateScore(gameOver, score, levelCompleted, bonus);
         System.out.println("The highscore is " + highScore);
         score = 10000;
         levelCompleted = 8;
         bonus = 200;
 
         System.out.println("The next highScore is " +
-            calculateScore(true, 10000,8,200));
+                calculateScore(true, 10000, 8, 200));
     }
 
     public static int calculateScore(boolean gameOver, int score, int levelCompleted, int bonus) {
@@ -27,5 +27,19 @@ public class Methods45 {
             finalScore += 1000;
         }
         return finalScore;
+    }
+
+    public static boolean isTooYoung(int age){
+        boolean result = false;
+        if (age < 21 ) {
+            return true;
+        }
+        return result;
+    }
+
+    public static void methodDoesSomething(int age) {
+        if (age > 21){
+            return;
+        }
     }
 }

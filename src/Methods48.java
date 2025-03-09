@@ -1,12 +1,25 @@
 public class Methods48 {
     public static void main(String[] args) {
-        int highScorePosition = calculateHighScorePosition(756);
-        displayHighScorePosition("Daniel", highScorePosition);
+
+        int highScorePosition = calculateHighScorePosition(900);
+        displayHighScorePosition("Tim", highScorePosition);
+
+        highScorePosition = calculateHighScorePosition(1000);
+        displayHighScorePosition("Bob", highScorePosition);
+
+        highScorePosition = calculateHighScorePosition(500);
+        displayHighScorePosition("Percy", highScorePosition);
+
+        highScorePosition = calculateHighScorePosition(100);
+        displayHighScorePosition("Gilbert", highScorePosition);
+
+        highScorePosition = calculateHighScorePosition(25);
+        displayHighScorePosition("James", highScorePosition);
     }
 
     public static void displayHighScorePosition(String playerName, int highScorePosition) {
         System.out.println(playerName + " managed to get into position "
-                + highScorePosition + " in the high score list");
+                + highScorePosition + " on the high score list");
     }
 
     public static int calculateHighScorePosition(int playerScore) {
@@ -19,8 +32,7 @@ public class Methods48 {
         } else if (playerScore >= 100) {
             position = 3;
         }
+
         return position;
     }
 }
-
-
