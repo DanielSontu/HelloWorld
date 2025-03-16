@@ -1,7 +1,7 @@
 public class SwitchClass {
     public static void main(String[] args) {
 
-        char phoneticAlpha = 'A';
+        char phoneticAlpha = 'B';
 
         switch (phoneticAlpha) {
             case 'A':
