@@ -1,6 +1,6 @@
 public class SalesChallenge {
     public static void main(String[] args) {
-       int updatedPrice = productPrice(700, "SPRING20");
+       int updatedPrice = productPrice(20, "SPRING20");
     System.out.println("Your price is " + updatedPrice  );
     }
 
