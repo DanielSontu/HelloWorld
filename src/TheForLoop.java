@@ -10,7 +10,7 @@ public class TheForLoop {
 //                System.out.println("10,000 at " + rate + "% interest = " + interestAmount);
 //        }
 
-            for(double i = 7.5; i <=10; i +=0.25){
+            for(double i = 6.5; i <=10; i +=0.25){
                 double interestAmount = calculateInterest(100, i);
                 if (interestAmount > 8.5 ){
                     break;
