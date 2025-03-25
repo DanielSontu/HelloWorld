@@ -14,6 +14,7 @@ public class Sum3and5Challenge {
             }
         }
         System.out.println("Sum = " + sumOfMatches);
+        System.out.println("Sum = " + sumOfMatches);
     }
 }
 
